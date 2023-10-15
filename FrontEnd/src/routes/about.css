@@ -1,0 +1,75 @@
+/* Add this CSS to your stylesheet */
+
+/* Style for the main content container */
+.about {
+  background: rgb(41, 41, 46);
+  /* Add other background properties as needed */
+  color: #080707; /* Text color for the main content */
+  padding: 20px; /* Add space around content */
+  text-align: center; /* Center text content */
+}
+
+/* Style for quotes */
+.about blockquote {
+  font-style: italic;
+  margin: 20px 0;
+  color: #322626; /* Quote text color */
+}
+
+/* Style for section headings */
+.about h2 {
+  margin: 20px 0;
+}
+
+/* Style for unordered list */
+.about ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* Style for list items in unordered list */
+.about li {
+  margin: 10px 0;
+}
+
+/* Style for the team container */
+.about-container {
+  background: #1f1e1e; /* Background color for the container */
+  display: flex;
+  justify-content: space-around; /* Adjust as needed */
+  padding: 20px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+/* Style for team members */
+.team-member {
+  text-align: center;
+  color: #fff; /* Text color for team members */
+}
+
+/* Style for team member images */
+.team-member img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px; /* Adjust as needed */
+}
+
+/* Style for team member names */
+.team-member p {
+  font-weight: bold;
+}
+
+/* Style for thank you message */
+.about p {
+  text-align: center;
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+/* Add any other custom styles you need */
+
+/* Style for footer (assuming it has a class called "footer") */
+

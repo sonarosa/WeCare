@@ -1,0 +1,124 @@
+.product-card-dash {
+  display: inline-block;
+  width: 300px;
+  height: 450px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px #ccc;
+  transition: transform 0.2s ease-in-out;
+  position: relative;
+  left: -10px;
+}
+
+.product-card-dash:hover {
+  transform: scale(1.05);
+}
+
+.product-card-header {
+  background-color: #f9f9f9;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.product-card-body {
+  padding: 10px;
+}
+
+.product-card-description {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.product-card-action {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  font-size: 16px;
+}
+.product-headings {
+  font-size: 20px;
+  color: #333;
+  margin: 0 0 8px;
+  position: relative;
+  left: -500px;
+}
+
+.product-card-dash p {
+  font-size: 16px;
+  color: #666;
+  margin: 0;
+}
+
+.product-card-likes-dash {
+  font-size: 14px;
+  color: #999;
+  margin-top: 8px;
+}
+
+.product-card-likes-dash span:first-child {
+  font-weight: bold;
+  margin-right: 4px;
+}
+.product-card-action-icon {
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.product-card-action-icon:hover {
+  color: #ff5500;
+}
+.view-more {
+  position: relative;
+  left: 10px;
+  top: -80px;
+  transition: left 0.3s ease;
+}
+
+.view-more.clicked {
+  left: 100px;
+}
+.product-card-likes-dash{
+  position:relative;
+  left: 80px;
+  top: 30px;
+}
+.product-card-audio-dash{
+  position:relative;
+  left: 110px;
+  top: 34px;
+}
+.product-card-buy-dash{
+  position:relative;
+  left: 140px;
+  top: 35px;
+}
+.product-card-arrow-dash{
+  position:relative;
+  left: 160px;
+  top: 34px;
+}
+.product-image-container-dash {
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+  height: 200px;
+}
+
+.product-image-dash {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.product-card-dash h2 {
+  margin: 10px 0;
+  font-size: 1.2rem;
+}
+
+.product-card-dash p {
+  margin-bottom: 15px;
+}

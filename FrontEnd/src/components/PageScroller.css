@@ -1,0 +1,42 @@
+.page-scroller {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .page-scroller button {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #0077cc;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .page-scroller button:hover {
+    background-color: #005fa3;
+  }
+  
+  .page-scroller button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  
+  .page-content {
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    width: 80%;
+    max-width: 800px;
+    text-align: center;
+  }
+  
+  .page-content h2 {
+    font-size: 2.5rem;
+    margin-top: 0;
+  }
+  

@@ -1,0 +1,116 @@
+/* Vegetablesone.css */
+.product-card {
+    display: flex;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 60px;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    height: 500px;
+    width: 500px; /* Increase the width to make the card larger */
+  }
+  
+  .product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3); /* Add hover box-shadow effect */
+  }
+  
+  .product-images-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    overflow: hidden;
+  }
+  
+  .product-image {
+    max-width: 100%;
+    height: auto;
+    display: none;
+  }
+  
+  .product-details {
+    padding: 15px 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column; /* Arrange the content in a column */
+    align-items: center;
+  }
+  
+  .product-details h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .product-description {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 20px; /* Adjust the spacing */
+  }
+  .product-details h3 {
+    font-size: 44px; /* Adjust the font size as needed */
+    margin: 10px 0; /* Add some spacing around the header */
+    color: #333; /* Change the color as needed */
+    font-weight: bold;
+    left:180px; /* Make the header bold */
+  }
+  .product-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto; /* Push icons to the bottom */
+  }
+  
+  .product-icon-heart,
+  .product-icon-cart,
+  .product-icon-volume {
+    margin: 0 10px; /* Add spacing between icons */
+    font-size: 1.2rem;
+    color: #666;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+  
+  .product-icon-heart:hover,
+  .product-icon-cart:hover,
+  .product-icon-volume:hover {
+    color: #f44336;
+  }
+  
+  .buy-now-btn {
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 15px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: background-color 0.3s;
+  }
+  
+  .buy-now-btn:hover {
+    background-color: #d32f2f;
+  }
+  
+  .dots-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .dot {
+    height: 12px;
+    width: 12px;
+    margin: 0 5px;
+    background-color: #bbb;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .dot.active {
+    background-color: #f44336;
+  }
+  

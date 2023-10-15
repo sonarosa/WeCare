@@ -1,0 +1,90 @@
+/* Customizeproduct.css */
+
+.Productsettings {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  .product-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .options-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .option-button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 16px;
+    border: none;
+    background-color: #a5a2a2;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .option-button.selected {
+    background-color: #fafafa;
+  }
+  
+  .add-product-form,
+  .delete-product-form,
+  .update-product-form {
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  .add-product-form.show,
+.delete-product-form.show,
+.update-product-form.show {
+  display: block;
+}
+  
+  /* Similarly, handle display for delete-product-form and update-product-form */
+  
+  .add-product-form h2,
+  .delete-product-form h2,
+  .update-product-form h2 {
+    margin-top: 0;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  form input,
+  form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  form button {
+    background-color: #171b20;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color: #52175b;
+  }
+  form select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px; /* Adjust the font size as needed */
+  }
+  

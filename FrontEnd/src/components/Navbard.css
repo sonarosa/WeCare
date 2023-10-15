@@ -1,0 +1,247 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  padding: 0 40px;
+  color: white;
+}
+
+.navbar-logo-link {
+  font-size: 32px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.navbar-links {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-link {
+  margin-right: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+}
+
+.navbar-dropdown {
+  position: relative;
+  margin-right: 20px;
+}
+
+.navbar-dropdown-menu {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: black;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 10px;
+  z-index: 1;
+  display: none;
+}
+
+.navbar-dropdown:hover .navbar-dropdown-menu {
+  display: block;
+}
+
+.navbar-dropdown-item {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 16px;
+  text-decoration: none;
+  color: white;
+}
+
+.navbar-search {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.navbar-search-input {
+  border: none;
+  outline: none;
+  flex-grow: 1;
+  padding: 5px;
+  font-size: 16px;
+}
+
+.navbar-search-icon, .navbar-mic-icon {
+  margin-left: 10px;
+  font-size: 16px;
+  color: black;
+}
+
+.navbar-cart-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+}
+
+.navbar-cart-link:hover {
+  text-decoration: underline;
+}
+
+.navbar-cart-count {
+  display: inline-block;
+  margin-left: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  background-color: black;
+  padding: 2px 5px;
+  border-radius: 50%;
+}
+
+.navbar-dropdown:hover .navbar-dropdown-menu {
+  display: block;
+}
+
+.navbar-dropdown-menu {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: black;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 10px;
+  z-index: 1;
+  display: none;
+}
+
+.navbar-dropdown-item {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 16px;
+  text-decoration: none;
+  color: white;
+}
+.navbar-search-dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 999;
+  background-color: #000000;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  max-height: 200px;
+  overflow-y: auto;
+  display: none;
+}
+
+.navbar-search-dropdown.visible {
+  display: block;
+}
+
+.navbar-search-dropdown-item {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.navbar-search-dropdown-item:hover {
+  background-color: #81216c;
+}
+.navbar-search {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-search-input {
+  height: 40px;
+  width: 300px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  margin-right: 10px;
+  color: #000000;
+}
+
+.navbar-search-icon {
+  font-size: 20px;
+  color: #000000;
+  margin-right: 10px;
+}
+
+.navbar-mic-icon {
+  font-size: 20px;
+  color: #000000;
+}
+
+.navbar-search-recommendations {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  width: 100%;
+  background-color: #060606;
+  border: 1px solid #ccc;
+  border-top: none;
+  padding: 10px;
+  z-index: 999;
+}
+
+.navbar-search-history {
+  margin-bottom: 10px;
+}
+
+.navbar-search-history-title {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.navbar-search-history-item {
+  font-size: 14px;
+  margin-bottom: 5px;
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+}
+
+.navbar-search-recommendations-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.navbar-search-recommendation {
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  font-size: 14px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.navbar-search-recommendation:hover {
+  background-color: #504d4d;
+}
+.navbar-search-history-item {
+  display: flex;
+  justify-content: space-between;
+}
+.search-history-item-close {
+  margin-top: auto;
+  padding-left: 0.5rem;
+}
+.navbar-search-history {
+  width: 70%;
+}
+.navbar-search-history-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.search-history-item-close {
+  margin-top: auto;
+  padding-left: 0.5rem;
+}
+
+.navbar-search-history {
+  width: 70%;
+}

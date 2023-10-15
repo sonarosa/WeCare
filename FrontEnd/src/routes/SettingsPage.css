@@ -1,0 +1,55 @@
+/* SettingsPage.css */
+
+/* Overall styles for the Settings Page */
+.settings-page {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .settings-page h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Styles for Dark Mode toggle */
+  .settings-toggle {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+  }
+  
+  /* Styles for Color Palette select */
+  .settings-palette-select {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Styles for Background Color picker */
+  .settings-color-picker {
+    margin-bottom: 20px;
+  }
+  
+  /* Style for Submit button (if applicable) */
+  .settings-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .settings-button:hover {
+    background-color: #0056b3;
+  }
+  

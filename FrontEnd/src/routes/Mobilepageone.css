@@ -1,0 +1,111 @@
+/* Mobilepageone.css */
+
+.product-cards-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; /* Allow cards to wrap to the next line */
+  margin: 20px;
+}
+
+.product-card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  width: calc(50% - 10px); /* Distribute two cards in a row with spacing */
+  margin-bottom: 20px; /* Add spacing between rows */
+  position: relative;
+  transition: transform 0.3s;
+}
+.product-card:hover {
+  transform: translateY(-5px);
+}
+
+.product-images-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  overflow: hidden;
+}
+
+.product-image {
+  max-width: 100%;
+  height: auto;
+  display: none;
+}
+
+.product-details {
+  padding: 15px 0;
+  text-align: center;
+}
+
+.product-details h3 {
+  font-size: 1.5rem;
+  margin-bottom: 100px;
+  
+}
+
+.product-description {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.product-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-icon-heart,
+.product-icon-cart,
+.product-icon-volume {
+  margin: 0 10px;
+  font-size: 1.2rem;
+  color: #666;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.product-icon-heart:hover,
+.product-icon-cart:hover,
+.product-icon-volume:hover {
+  color: #f44336;
+}
+
+.buy-now-btn {
+  background-color: #f44336;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 15px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background-color 0.3s;
+}
+
+.buy-now-btn:hover {
+  background-color: #d32f2f;
+}
+
+.dots-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.dot {
+  height: 12px;
+  width: 12px;
+  margin: 0 5px;
+  background-color: #bbb;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.dot.active {
+  background-color: #f44336;
+}

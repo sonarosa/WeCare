@@ -1,5 +1,6 @@
 # WeCare
-_A project as part of Cloud Computing Course_
+_A project as part of Cloud Computing Course._
+
 __This project is basically an ecommerce website for needful people who are in seek of products free.__
 ## Overview
 Welcome to the "WeCare" Charitable Foundation's eCommerce website repository. "WeCare" is a nonprofit organization dedicated to providing essential goods and support to needy individuals and communities. This eCommerce website is a platform where individuals can browse, order, and donate essential items to those in need.
